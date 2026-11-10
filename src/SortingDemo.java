@@ -1,7 +1,4 @@
-import sort.Sorter;
-import sort.SelectionSort;
-import sort.InsertionSort;
-import sort.ShellSort;
+import sort.*;
 
 import java.util.Random;
 
@@ -21,7 +18,7 @@ public class SortingDemo {
         }
         System.out.println();
 
-        Sorter<Integer> sorter = new SelectionSort<>();
+        Sorter<Integer> sorter = new NaturalMergeSort<>();
         sorter.sort(values);
 
         for (int value : values) {
