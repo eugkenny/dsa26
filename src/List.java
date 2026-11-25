@@ -1,5 +1,3 @@
-import java.util.Iterator;
-
 public interface List<E> extends Iterable<E> {
 
     // Add an item to the end of the list.
